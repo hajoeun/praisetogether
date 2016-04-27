@@ -29,6 +29,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/song', {
+        templateUrl: 'views/song.html',
+        controller: 'SongCtrl',
+        controllerAs: 'song'
+      })
       .otherwise({
         redirectTo: '/'
       });

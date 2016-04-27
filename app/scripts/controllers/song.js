@@ -2,18 +2,16 @@
 
 /**
  * @ngdoc function
- * @name pratoApp.controller:MainCtrl
+ * @name pratoApp.controller:SongCtrl
  * @description
- * # MainCtrl
+ * # SongCtrl
  * Controller of the pratoApp
  */
 angular.module('pratoApp')
-  .controller('MainCtrl', function () {
+  .controller('SongCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-
-    
   });
